@@ -36,7 +36,10 @@ The project does not get to claim it “understands” or “improves” a perso
 
 - [Founding model v0.1](docs/specs/personalized-social-flourishing-model-v0.1.md) — the imported technical concept and current source material.
 - [Specification map](docs/specs/README.md) — how the concept will be decomposed and matured.
+- [Product bridge v0.1](docs/specs/product-bridge-v0.1.md) — how the research model becomes a participant-facing product.
 - [Open questions](docs/specs/open-questions.md) — the highest-leverage unknowns to resolve next.
+- [Technical collaborator pitch v0.1](docs/pitch/technical-collaborator-pitch-v0.1.md) — a defensible version of the founding story and ask.
+- [Ad-tech-to-flourishing evidence audit](docs/research/adtech-to-flourishing-evidence-audit.md) — primary-source support and explicit limits for the core analogy.
 - [ADR-0001](docs/decisions/0001-probabilistic-core-and-llm-boundary.md) — the first accepted architectural boundary.
 
 ## Non-negotiable guardrails
