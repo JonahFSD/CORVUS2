@@ -1,4 +1,4 @@
-# Personalized Social Flourishing
+# Osanwe
 
 A research and product program for building technology that measurably improves human flourishing while strengthening—rather than replacing—human relationships.
 
