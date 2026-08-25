@@ -6,7 +6,7 @@ The first tractable wedge is **social flourishing**: can a personalized model us
 
 ## Status
 
-**Phase 0: specification and scientific de-risking.** There is no validated model, product, or clinical claim yet. The current work is to sharpen the constructs, data contracts, evaluation design, safety boundaries, and kill criteria before committing to an implementation stack.
+**Pitch-demo implementation.** The current target is a narrow, credential-free vertical slice that demonstrates the consent-to-observation-to-state-to-action loop in under two minutes. It is a product demonstration, not a validated model, clinical product, or efficacy claim.
 
 ## Deep-tech thesis
 
@@ -37,10 +37,13 @@ The project does not get to claim it “understands” or “improves” a perso
 - [Founding model v0.1](docs/specs/personalized-social-flourishing-model-v0.1.md) — the imported technical concept and current source material.
 - [Specification map](docs/specs/README.md) — how the concept will be decomposed and matured.
 - [Product bridge v0.1](docs/specs/product-bridge-v0.1.md) — how the research model becomes a participant-facing product.
+- [Two-minute demo v0.1](docs/specs/two-minute-demo-v0.1.md) — the implemented pitch path and its acceptance criteria.
 - [Open questions](docs/specs/open-questions.md) — the highest-leverage unknowns to resolve next.
 - [Technical collaborator pitch v0.1](docs/pitch/technical-collaborator-pitch-v0.1.md) — a defensible version of the founding story and ask.
+- [Two-minute competition pitch v0.1](docs/pitch/two-minute-competition-pitch-v0.1.md) — the timed spoken script and presenter runbook for the implemented demo.
 - [Ad-tech-to-flourishing evidence audit](docs/research/adtech-to-flourishing-evidence-audit.md) — primary-source support and explicit limits for the core analogy.
 - [ADR-0001](docs/decisions/0001-probabilistic-core-and-llm-boundary.md) — the first accepted architectural boundary.
+- [ADR-0002](docs/decisions/0002-pitch-demo-runtime.md) — the local-first TypeScript runtime chosen for the pitch tracer bullet.
 
 ## Non-negotiable guardrails
 
