@@ -1,0 +1,17 @@
+Communication job
+By the end, ACU pitch judges should advance Wayfinder because they understand a concrete human problem, see that a working product interaction exists, and trust that the founder distinguishes a testable human-flourishing hypothesis from proven impact.
+
+Narrative arc
+1. Invert the objective of personalization.
+2. Make the problem human and specific.
+3. Show the built participant-controlled input.
+4. Show the correctable explanation and bounded real-world action.
+5. Close on the production-alpha milestone and human outcome.
+
+Visual system
+- Custom Vercel-inspired route requested by the user.
+- 16:9, black canvas, white and neutral grays, thin rules, large Arial typography as a reliable Geist-compatible fallback.
+- No Vercel logo or copied component; only the high-level visual grammar.
+- One product-green accent, used sparingly to connect the deck to Wayfinder.
+- Story image is secondary; screenshots are the proof.
+

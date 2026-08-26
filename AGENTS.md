@@ -6,7 +6,7 @@ This repository develops a scientifically falsifiable, privacy-preserving system
 
 ## Current phase
 
-The project is in specification and scientific de-risking. Prefer clarifying constructs, contracts, experiments, safety boundaries, and kill criteria over selecting frameworks or building broad product surfaces.
+The project is moving from a completed pitch tracer bullet into a narrow production alpha. Prefer end-to-end, deployable product slices with real authentication, persistence, consent, correction, longitudinal state, bounded actions, and operational safeguards. Scientific evaluation remains an internal quality discipline; it is not the participant-facing product or a reason to postpone a useful conservative release.
 
 ## Working rules
 
@@ -23,4 +23,18 @@ The project is in specification and scientific de-risking. Prefer clarifying con
 
 ## Before implementation
 
-Do not introduce an application framework, model-serving stack, database, or wearable integration until a scoped tracer bullet and its acceptance criteria are documented.
+The initial Next.js tracer bullet and its acceptance criteria are documented and implemented on `feat/two-minute-wayfinder-demo`. New infrastructure must now be tied to the production-alpha acceptance criteria in `docs/specs/wayfinder-production-alpha-prd-v0.1.md`; avoid broad platform work that does not complete a participant-visible longitudinal slice.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and PRDs are tracked in GitHub Issues for this repository. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Use the default Matt Pocock skills triage vocabulary. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+This is a single-context repository; read this file, relevant specifications and research, and applicable records in `docs/decisions/`. See `docs/agents/domain.md`.

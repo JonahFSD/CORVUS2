@@ -6,7 +6,7 @@ The first tractable wedge is **social flourishing**: can a personalized model us
 
 ## Status
 
-**Phase 0: specification and scientific de-risking.** There is no validated model, product, or clinical claim yet. The current work is to sharpen the constructs, data contracts, evaluation design, safety boundaries, and kill criteria before committing to an implementation stack.
+**Production alpha.** The `feat/two-minute-wayfinder-demo` branch contains a tested, production-building product seed. The current work is to replace its synthetic, browser-local scenario with authenticated longitudinal use, persistent consent and evidence, live observation extraction, versioned personal state, bounded recommendations, and production operations. There is no validated efficacy or clinical claim.
 
 ## Deep-tech thesis
 
@@ -37,6 +37,9 @@ The project does not get to claim it “understands” or “improves” a perso
 - [Founding model v0.1](docs/specs/personalized-social-flourishing-model-v0.1.md) — the imported technical concept and current source material.
 - [Specification map](docs/specs/README.md) — how the concept will be decomposed and matured.
 - [Product bridge v0.1](docs/specs/product-bridge-v0.1.md) — how the research model becomes a participant-facing product.
+- [Wayfinder production alpha PRD v0.1](docs/specs/wayfinder-production-alpha-prd-v0.1.md) — the accepted participant product, runtime architecture, adaptation loop, release slices, and production-readiness criteria.
+- [Social observatory PRD v0.1](docs/specs/social-observatory-prd-v0.1.md) — the participant-owned instrument, field-notebook experience, and shadow-forecasting gates.
+- [Experimental action and adaptation PRD v0.1](docs/specs/experimental-action-and-adaptation-prd-v0.1.md) — the locked causal-action and later adaptation path.
 - [Open questions](docs/specs/open-questions.md) — the highest-leverage unknowns to resolve next.
 - [Technical collaborator pitch v0.1](docs/pitch/technical-collaborator-pitch-v0.1.md) — a defensible version of the founding story and ask.
 - [Ad-tech-to-flourishing evidence audit](docs/research/adtech-to-flourishing-evidence-audit.md) — primary-source support and explicit limits for the core analogy.

@@ -4,7 +4,7 @@ These are ordered by how much they change the scientific claim or system design.
 
 ## 1. Who is the first participant?
 
-The source draft lists college students, recent movers, newly remote workers, and recent graduates. Choose one transition and define inclusion/exclusion criteria. Different choices change the event model, outcome cadence, safety posture, recruitment, and acceptable interventions.
+The source draft lists college students, recent movers, newly remote workers, and recent graduates. The [social observatory PRD v0.1](social-observatory-prd-v0.1.md) selects consenting adults in the first 12 weeks after moving to a new city as the proposed first pilot population. Accept or reject that choice and define its inclusion/exclusion criteria. Different choices change the event model, outcome cadence, safety posture, recruitment, and acceptable interventions.
 
 ## 2. What counts as flourishing?
 
@@ -52,4 +52,4 @@ Define which statements are descriptive, predictive, correlational, causal, or u
 
 ## Suggested next decision
 
-Write a one-page **target participant and use-case spec**. It will constrain nearly every question above and expose whether the first product is primarily a research instrument, a consumer product, or both.
+Review and accept or reject the target participant, job to be done, and instrument-only boundary in the [social observatory PRD v0.1](social-observatory-prd-v0.1.md). That decision constrains nearly every question above and determines whether the first product is primarily a research instrument, a consumer product, or both.

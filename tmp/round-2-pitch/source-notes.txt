@@ -1,0 +1,17 @@
+Source ledger for the Round 2 pitch deck
+
+Internal product and claim sources
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/pitch/round-2/round-2-pitch-prep.md
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/specs/wayfinder-production-alpha-prd-v0.1.md
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/specs/two-minute-demo-v0.1.md on origin/feat/two-minute-wayfinder-demo
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/research/adtech-to-flourishing-evidence-audit.md
+- https://github.com/JonahFSD/Osanwe/tree/feat/two-minute-wayfinder-demo
+
+Visual assets
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/pitch/round-2/assets/wayfinder-before.png — captured from the working prototype on origin/feat/two-minute-wayfinder-demo; synthetic scenario.
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/pitch/round-2/assets/wayfinder-recommendation.png — captured from the working prototype on origin/feat/two-minute-wayfinder-demo; synthetic scenario.
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/pitch/round-2/assets/new-city-connection-story.png — generated for this deck with the built-in image generation workflow; no real person or factual outcome is depicted.
+
+Design reference
+- https://vercel.com/ — official Vercel homepage, accessed 2026-08-26. Used only as aesthetic direction: black canvas, oversized white sans-serif type, sparse copy, thin grid lines, and product-led proof. No Vercel marks or assets are reproduced.
+
