@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/y8n64z",
-    "id": "y8n64z",
+    "aid": "sl/lzpn4w",
+    "id": "lzpn4w",
     "slide": 2,
-    "layoutId": "a9cdc786-3501-4283-9e5d-a37be9ba02da",
+    "layoutId": "a27833fe-bd3e-4076-acdd-eeb0bcdde2f0",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "aeadfc77-82f4-4b80-8c27-e7cd5a00ca1c",
+    "masterLayoutId": "5ec5e6df-9fe8-4bca-8bcd-e5b2ee3e8e51",
     "masterLayoutName": "Master",
     "backgroundColor": "#000000",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "a9cdc786-3501-4283-9e5d-a37be9ba02da",
+      "id": "a27833fe-bd3e-4076-acdd-eeb0bcdde2f0",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "aeadfc77-82f4-4b80-8c27-e7cd5a00ca1c",
+      "parentLayoutId": "5ec5e6df-9fe8-4bca-8bcd-e5b2ee3e8e51",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "aeadfc77-82f4-4b80-8c27-e7cd5a00ca1c",
+      "id": "5ec5e6df-9fe8-4bca-8bcd-e5b2ee3e8e51",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/val03ihg",
+      "aid": "sh/l8vuhwfa",
       "id": "1",
       "name": "brand-2",
       "bbox": [
@@ -134,7 +134,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/gbu1cni1",
+      "aid": "sh/y5kv6hgj",
       "id": "2",
       "name": "round-2",
       "bbox": [
@@ -201,7 +201,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/hc3i5szm",
+      "aid": "sh/z6dcfmx4",
       "id": "3",
       "name": "top-rule-2",
       "bbox": [
@@ -219,7 +219,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/idcjex07",
+      "aid": "sh/c32t47yt",
       "id": "4",
       "name": "left-grid-2",
       "bbox": [
@@ -237,7 +237,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/3el072hs",
+      "aid": "sh/x4budcfe",
       "id": "5",
       "name": "center-grid-2",
       "bbox": [
@@ -255,7 +255,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/4fu1gnid",
+      "aid": "sh/a1kb2hgn",
       "id": "6",
       "name": "right-grid-2",
       "bbox": [
@@ -273,7 +273,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/5gni9szy",
+      "aid": "sh/b2tcbmx8",
       "id": "7",
       "name": "bottom-rule-2",
       "bbox": [
@@ -291,7 +291,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/q1wjix03",
+      "aid": "sh/wz6dgbex",
       "id": "8",
       "name": "page-2",
       "bbox": [
@@ -358,7 +358,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/r250b2ho",
+      "aid": "sh/h0fupgfi",
       "id": "9",
       "name": "problem-title",
       "bbox": [
@@ -459,7 +459,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/rah4v2hs",
+      "aid": "sh/9ofihkj6",
       "id": "10",
       "name": "problem-copy",
       "bbox": [
@@ -551,7 +551,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/698n2xgn",
+      "aid": "sh/o36h8f2l",
       "id": "11",
       "name": "problem-accent",
       "bbox": [
@@ -569,7 +569,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/dwz6xczy",
+      "aid": "sh/n2x0fa10",
       "id": "12",
       "name": "problem-outcome",
       "bbox": [
@@ -661,7 +661,7 @@
       "order": 13,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/zmdcna1w",
+      "aid": "im/9o7mp8zy",
       "id": "13",
       "bbox": [
         672,
@@ -683,7 +683,7 @@
         "geometry": "rect"
       },
       "asset": {
-        "assetId": "c1108660-2ced-4e57-8d1b-121b7275e968",
+        "assetId": "b4092483-fcae-4aed-a505-e648097e1a52",
         "contentType": "image/png",
         "byteLength": 1820482
       }
@@ -692,7 +692,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/j6x4rihw",
+      "aid": "sh/10fyd0ju",
       "id": "14",
       "name": "story-frame",
       "bbox": [

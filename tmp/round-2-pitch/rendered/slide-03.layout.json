@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/2oueab",
-    "id": "2oueab",
+    "aid": "sl/lrx371",
+    "id": "lrx371",
     "slide": 3,
-    "layoutId": "a9cdc786-3501-4283-9e5d-a37be9ba02da",
+    "layoutId": "a27833fe-bd3e-4076-acdd-eeb0bcdde2f0",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "aeadfc77-82f4-4b80-8c27-e7cd5a00ca1c",
+    "masterLayoutId": "5ec5e6df-9fe8-4bca-8bcd-e5b2ee3e8e51",
     "masterLayoutName": "Master",
     "backgroundColor": "#000000",
     "frame": {
@@ -45,15 +45,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "a9cdc786-3501-4283-9e5d-a37be9ba02da",
+      "id": "a27833fe-bd3e-4076-acdd-eeb0bcdde2f0",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "aeadfc77-82f4-4b80-8c27-e7cd5a00ca1c",
+      "parentLayoutId": "5ec5e6df-9fe8-4bca-8bcd-e5b2ee3e8e51",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "aeadfc77-82f4-4b80-8c27-e7cd5a00ca1c",
+      "id": "5ec5e6df-9fe8-4bca-8bcd-e5b2ee3e8e51",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -64,7 +64,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/o7i5oved",
+      "aid": "sh/zq1kzut8",
       "id": "1",
       "name": "brand-3",
       "bbox": [
@@ -134,7 +134,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/n69ovqxs",
+      "aid": "sh/0ra1szat",
       "id": "2",
       "name": "round-3",
       "bbox": [
@@ -201,7 +201,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/m50nm5g7",
+      "aid": "sh/lsj214be",
       "id": "3",
       "name": "top-rule-3",
       "bbox": [
@@ -219,7 +219,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/14r6t0fm",
+      "aid": "sh/ql8jmpsr",
       "id": "4",
       "name": "left-grid-3",
       "bbox": [
@@ -237,7 +237,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/03y5kvy1",
+      "aid": "sh/bm10vutc",
       "id": "5",
       "name": "center-grid-3",
       "bbox": [
@@ -255,7 +255,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ziporqxg",
+      "aid": "sh/cna1ofah",
       "id": "6",
       "name": "right-grid-3",
       "bbox": [
@@ -273,7 +273,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ehgnilgv",
+      "aid": "sh/doj2xkb2",
       "id": "7",
       "name": "bottom-rule-3",
       "bbox": [
@@ -291,7 +291,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/l0b65kfq",
+      "aid": "sh/2x8ji5sf",
       "id": "8",
       "name": "page-3",
       "bbox": [
@@ -358,7 +358,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/kz2pwfe5",
+      "aid": "sh/3ih0rat0",
       "id": "9",
       "name": "input-kicker",
       "bbox": [
@@ -428,7 +428,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ylofe98v",
+      "aid": "sh/bmt0rixo",
       "id": "10",
       "name": "input-title",
       "bbox": [
@@ -529,7 +529,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/z6hwnepg",
+      "aid": "sh/alkzidw3",
       "id": "11",
       "name": "input-copy",
       "bbox": [
@@ -621,7 +621,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/k7qxgjql",
+      "aid": "sh/xobitsfe",
       "id": "12",
       "name": "input-accent",
       "bbox": [
@@ -639,7 +639,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/l8zep476",
+      "aid": "sh/wn2hknet",
       "id": "13",
       "name": "input-boundary",
       "bbox": [
@@ -731,7 +731,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ahovap8j",
+      "aid": "sh/jqt0v2xk",
       "id": "14",
       "name": "input-screen-backing",
       "bbox": [
@@ -749,7 +749,7 @@
       "order": 15,
       "kind": "image",
       "scope": "slide",
-      "aid": "im/kryhkzil",
+      "aid": "im/p8rmh4f2",
       "id": "15",
       "bbox": [
         604,
@@ -771,7 +771,7 @@
         "geometry": "rect"
       },
       "asset": {
-        "assetId": "8bdbf730-bde1-4e04-8921-6153f9d5cbfb",
+        "assetId": "565ba0f8-be1a-4d28-9dbd-079b745f6925",
         "contentType": "image/jpeg",
         "byteLength": 82836
       }
