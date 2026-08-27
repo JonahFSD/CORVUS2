@@ -54,6 +54,25 @@ test("restart safely begins a fresh autonomous run", async ({ page }) => {
   ).toBeVisible();
 });
 
+test("autonomous chapters ease into one another instead of hard cutting", async ({ page }) => {
+  await page.goto("/");
+  await page.clock.install();
+  await page.getByRole("button", { name: "Run 30-second demo" }).click();
+
+  await page.clock.fastForward(4_100);
+
+  const transition = await page.locator(".workspace-stage").evaluate((element) => {
+    const style = getComputedStyle(element);
+    return {
+      animationName: style.animationName,
+      animationDurationMs: Number.parseFloat(style.animationDuration) * 1_000,
+    };
+  });
+
+  expect(transition.animationName).not.toBe("none");
+  expect(transition.animationDurationMs).toBeGreaterThanOrEqual(500);
+});
+
 test("every autonomous stage avoids horizontal overflow", async ({ page }) => {
   const assertNoOverflow = async () => {
     expect(

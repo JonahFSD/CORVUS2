@@ -20,7 +20,7 @@ import {
   WalletCards,
   X,
 } from "lucide-react";
-import { type CSSProperties, useEffect, useMemo, useRef, useState } from "react";
+import { type CSSProperties, memo, useEffect, useMemo, useRef, useState } from "react";
 
 import { mayaAnswer, therapistDirectory } from "@/domain/demo-data";
 import {
@@ -56,7 +56,13 @@ const initialsFor = (name: string) =>
     .map((part) => part[0])
     .join("");
 
-function ParticleField({ active, phase }: { active: boolean; phase: StagePhase }) {
+const ParticleField = memo(function ParticleField({
+  active,
+  phase,
+}: {
+  active: boolean;
+  phase: StagePhase;
+}) {
   return (
     <div
       className={`particle-field particle-phase-${phase} ${active ? "particle-field-active" : ""}`}
@@ -79,16 +85,16 @@ function ParticleField({ active, phase }: { active: boolean; phase: StagePhase }
             key={`${x}-${y}`}
             style={
               {
-                "--particle-x": `${x}%`,
-                "--particle-y": `${y}%`,
+                "--particle-x": `${x}vw`,
+                "--particle-y": `${y}vh`,
                 "--particle-delay": `${(index % 11) * -0.16}s`,
                 "--particle-size": `${index % 7 === 0 ? 4 : 2}px`,
-                "--manifest-x": `${manifestX}%`,
-                "--manifest-y": `${manifestY}%`,
-                "--match-x": `${matchX}%`,
-                "--match-y": `${matchY}%`,
-                "--handoff-x": `${handoffX}%`,
-                "--handoff-y": `${handoffY}%`,
+                "--manifest-x": `${manifestX}vw`,
+                "--manifest-y": `${manifestY}vh`,
+                "--match-x": `${matchX}vw`,
+                "--match-y": `${matchY}vh`,
+                "--handoff-x": `${handoffX}vw`,
+                "--handoff-y": `${handoffY}vh`,
               } as CSSProperties
             }
           />
@@ -97,7 +103,7 @@ function ParticleField({ active, phase }: { active: boolean; phase: StagePhase }
       <div className="signal-line" />
     </div>
   );
-}
+});
 
 export function CorvusDemo() {
   const proposals = useMemo(() => compileIntakeManifest(mayaAnswer), []);

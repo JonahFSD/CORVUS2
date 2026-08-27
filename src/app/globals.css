@@ -206,7 +206,7 @@ textarea:focus-visible {
 .particle-field {
   position: fixed;
   z-index: -1;
-  inset: 70px 0 30px;
+  inset: 0;
   overflow: hidden;
   opacity: 0.48;
   pointer-events: none;
@@ -224,37 +224,34 @@ textarea:focus-visible {
   );
 }
 .particle-field > span {
-  --particle-x: 50%;
-  --particle-y: 50%;
+  --particle-x: 50vw;
+  --particle-y: 50vh;
   --particle-delay: 0s;
   --particle-size: 2px;
   position: absolute;
   z-index: 1;
-  left: var(--particle-x);
-  top: var(--particle-y);
+  left: 0;
+  top: 0;
   width: var(--particle-size);
   height: var(--particle-size);
   border-radius: 50%;
   background: var(--white);
   opacity: 0.24;
-  transform: translate(-50%, -50%);
+  transform: translate3d(var(--particle-x), var(--particle-y), 0);
+  will-change: transform, opacity;
   transition:
-    left 1s cubic-bezier(0.22, 1, 0.36, 1),
-    top 1s cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 0.5s ease;
+    transform 1.35s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.65s ease;
 }
 .particle-phase-manifest > span {
-  left: var(--manifest-x);
-  top: var(--manifest-y);
+  transform: translate3d(var(--manifest-x), var(--manifest-y), 0);
 }
 .particle-phase-matches > span {
-  left: var(--match-x);
-  top: var(--match-y);
+  transform: translate3d(var(--match-x), var(--match-y), 0);
 }
 .particle-phase-handoff > span,
 .particle-phase-complete > span {
-  left: var(--handoff-x);
-  top: var(--handoff-y);
+  transform: translate3d(var(--handoff-x), var(--handoff-y), 0);
 }
 .particle-field-active > span {
   animation: particle-pulse 1.8s ease-in-out var(--particle-delay) infinite alternate;
@@ -269,6 +266,7 @@ textarea:focus-visible {
   border: 1px solid rgba(216, 255, 62, 0.18);
   border-radius: 50%;
   transform: translate(-50%, -50%);
+  will-change: transform, opacity;
   box-shadow:
     inset 0 0 70px rgba(216, 255, 62, 0.04),
     0 0 120px rgba(216, 255, 62, 0.04);
@@ -313,17 +311,14 @@ textarea:focus-visible {
 @keyframes particle-pulse {
   from {
     opacity: 0.12;
-    transform: translate(-50%, -50%) scale(0.7);
   }
   to {
     opacity: 0.72;
-    transform: translate(-50%, -50%) scale(1.7);
   }
 }
 @keyframes origin-breathe {
   50% {
-    width: 184px;
-    height: 184px;
+    transform: translate(-50%, -50%) scale(1.2);
     opacity: 0.7;
   }
 }
@@ -1032,6 +1027,51 @@ textarea:focus-visible {
 }
 .replay-button {
   margin-top: 30px;
+}
+
+.mode-auto .story-stage,
+.mode-auto .workspace-stage,
+.mode-auto .handoff-stage,
+.mode-auto .complete-stage {
+  will-change: opacity, transform;
+  animation: chapter-enter 0.78s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.mode-auto .manifest-card,
+.mode-auto .therapist-card,
+.mode-auto .handoff-document {
+  animation: object-enter 0.82s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.mode-auto .manifest-card:nth-child(2),
+.mode-auto .therapist-card:nth-child(2) {
+  animation-delay: 0.08s;
+}
+.mode-auto .manifest-card:nth-child(3) {
+  animation-delay: 0.16s;
+}
+
+@keyframes chapter-enter {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.992);
+  }
+  45% {
+    opacity: 0.88;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes object-enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .footer-boundary {
