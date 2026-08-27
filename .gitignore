@@ -8,6 +8,10 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 node_modules/
+.next/
+playwright-report/
+test-results/
+*.tsbuildinfo
 dist/
 build/
 coverage/

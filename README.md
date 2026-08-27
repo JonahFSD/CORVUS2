@@ -1,6 +1,6 @@
-# Osanwe
+# Corvus
 
-Osanwe is an expedited, clinician-reviewed therapy intake system.
+Corvus is an expedited, clinician-reviewed therapy intake system.
 
 It helps an adult client tell their story before the first appointment, turns that story into a structured and source-linked intake draft, and gives the therapist a fast way to correct and accept it. The goal is simple: spend less of the first session reconstructing history and more of it understanding the client and beginning useful work.
 
@@ -8,7 +8,24 @@ The product is a tool for therapists. It is not an AI therapist, diagnostic syst
 
 ## Status
 
-**Pre-production.** The product direction and boundaries are specified, and a working web application provides reusable authentication, consent, persistence, and audit-oriented seams. The therapy-intake workflow, clinical safety operations, and production data protections are not complete. Osanwe is not ready to receive real client information.
+**Synthetic product demo.** The repository now contains an end-to-end browser journey from an AI disclosure to a client-reviewed manifest, deterministic therapist eligibility matching, and an approved therapist handoff. The demo uses fixed synthetic data and in-memory state. Authentication, persistence, real consent records, therapist directory verification, safety operations, and production data protections are not implemented. Corvus is not ready to receive real client information.
+
+The implemented slice demonstrates these invariants:
+
+- every proposed intake fact retains the source text it came from;
+- the client can edit, approve, or withhold each proposal;
+- matching uses explicit eligibility rules and explains every included therapist;
+- only approved facts appear in the handoff; and
+- the product labels itself as intake—not therapy, diagnosis, or treatment advice.
+
+## Run the demo
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Open `http://localhost:3000`. Run `pnpm test` for the domain workflow, `pnpm test:e2e` for the browser journey, and `pnpm build` for the production build check.
 
 ## The problem
 
@@ -18,7 +35,7 @@ Therapy intake usually forces a bad tradeoff:
 - An open-ended conversation preserves context but consumes scarce session and documentation time.
 - A generated summary can be fast but is unsafe if nobody can tell which statements came from the client, which were inferred, or which were invented.
 
-Osanwe combines the useful parts of forms and conversation. The client can answer naturally, the system compiles their answers into a reviewable structure, and the therapist remains responsible for the clinical record and every clinical decision.
+Corvus combines the useful parts of forms and conversation. The client can answer naturally, the system compiles their answers into a reviewable structure, and the therapist remains responsible for the clinical record and every clinical decision.
 
 ## Who it is for
 
@@ -131,7 +148,7 @@ It does not belong in the initial intake path.
 
 A Kalman filter is useful when the same uncertain quantity is measured repeatedly over time. A one-time intake contains history and narrative, not a trustworthy sequence of comparable measurements. Applying a state filter to it would create mathematical theater.
 
-If Osanwe later supports between-session monitoring, a small state-space model may help distinguish a changing client-reported trajectory from measurement noise. For a roughly continuous repeated measure, the update can be as simple as:
+If Corvus later supports between-session monitoring, a small state-space model may help distinguish a changing client-reported trajectory from measurement noise. For a roughly continuous repeated measure, the update can be as simple as:
 
 ```text
 predicted variance = previous variance + elapsed time × expected volatility
@@ -172,7 +189,7 @@ The therapist can accept, edit, reject, or defer every section. The product shou
 
 Shipping software and showing an attractive summary do not establish value. The product earns its place if it gets therapists to an accepted intake faster without reducing information quality, increasing client burden, or creating safety failures.
 
-The first comparison is Osanwe versus the practice's existing form and documentation workflow. Measure:
+The first comparison is Corvus versus the practice's existing form and documentation workflow. Measure:
 
 | Outcome | What it answers |
 | --- | --- |
@@ -190,7 +207,7 @@ The kill rule is straightforward: if therapists do not reach an acceptable recor
 
 ## Safety and clinical boundary
 
-- Osanwe does not diagnose, formulate, recommend treatment, or represent itself as therapy.
+- Corvus does not diagnose, formulate, recommend treatment, or represent itself as therapy.
 - It does not infer another person's beliefs, intentions, reciprocity, attachment, or worth.
 - It does not autonomously contact a client, family member, clinician, or emergency service.
 - Possible high-risk language enters a separately specified deterministic workflow with an accountable human; a generative summary or Kalman estimate is never the safety mechanism.
@@ -198,7 +215,7 @@ The kill rule is straightforward: if therapists do not reach an acceptable recor
 - The system does not optimize conversation length, attachment to the AI, or engagement.
 - Raw sources, model proposals, client corrections, therapist decisions, exports, access, and deletion events are auditable.
 
-When Osanwe hosts or accesses protected health information on behalf of a covered provider, it may be a business associate and the provider may need a business associate agreement before that access. HHS specifically identifies hosted patient-information software and some provider-contracted health apps as examples. See the [HHS software-vendor FAQ](https://www.hhs.gov/hipaa/for-professionals/faq/256/is-software-vendor-business-associate/index.html) and [HHS business-associate guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html).
+When Corvus hosts or accesses protected health information on behalf of a covered provider, it may be a business associate and the provider may need a business associate agreement before that access. HHS specifically identifies hosted patient-information software and some provider-contracted health apps as examples. See the [HHS software-vendor FAQ](https://www.hhs.gov/hipaa/for-professionals/faq/256/is-software-vendor-business-associate/index.html) and [HHS business-associate guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html).
 
 Product claims and intended use must also be reviewed against current law and the FDA's [Clinical Decision Support Software guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software). The design goal is clinician-reviewed intake documentation, not an opaque diagnostic or treatment decision.
 
@@ -264,7 +281,7 @@ Wearables, passive sensing, relationship graphs, autonomous recommendations, rei
 
 ## Production-ready means
 
-Osanwe is ready for live client use only when:
+Corvus is ready for live client use only when:
 
 - a therapist can configure, invite, review, accept, and export an intake end to end;
 - a client can understand consent, complete the intake, inspect sensitive proposals, correct them, submit them, and exercise access and deletion rights;
@@ -284,6 +301,8 @@ Osanwe is ready for live client use only when:
 - [`docs/research/`](docs/research/) contains the primary-source evidence base and comparable-system reviews.
 - [`docs/specs/`](docs/specs/) contains earlier design work and historical model proposals. When it conflicts with this README's product scope, this README describes the current product direction until a new durable decision is recorded.
 - [`AGENTS.md`](AGENTS.md) defines the working and scientific guardrails for contributors and coding agents.
+- [`src/domain/intake-workflow.ts`](src/domain/intake-workflow.ts) contains the deterministic demo workflow.
+- [`src/components/corvus-demo.tsx`](src/components/corvus-demo.tsx) contains the interactive browser journey.
 
 ## Claim discipline
 
