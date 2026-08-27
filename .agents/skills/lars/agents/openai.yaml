@@ -1,4 +1,0 @@
-interface:
-  display_name: "Lars Research Method"
-  short_description: "Analyze research using Ostervold’s published method"
-  default_prompt: "Use $lars to analyze this question using the published Ostervold corpus, separating evidence, synthesis, and new proposals."

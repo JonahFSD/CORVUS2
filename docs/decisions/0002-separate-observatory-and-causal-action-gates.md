@@ -55,7 +55,7 @@ Comparable systems show that these are separable claims:
 
 See the [comparable-systems review](../research/comparable-personalized-longitudinal-intervention-systems.md) for primary sources and limitations.
 
-The domain-transferred Lars research heuristic also favors perturbing one interpretable variable and measuring both outcome and system state before adding a complex optimizer. Applying that method here is a new Osanwe proposal, not a claim about Lars Ostervold's personal view.
+The design therefore favors perturbing one interpretable variable and measuring both outcome and system state before adding a complex optimizer. This is a project-level methodological choice, and it must earn its place through clearer discriminating tests and safer decisions.
 
 ## Alternatives considered
 

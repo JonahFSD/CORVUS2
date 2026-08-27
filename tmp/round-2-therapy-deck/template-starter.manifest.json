@@ -1,0 +1,57 @@
+{
+  "sourcePptx": "/Users/jonahelliott/WORKSPACE/Osanwe/docs/pitch/round-2/osanwe-wayfinder-round-2.pptx",
+  "mapPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-frame-map.json",
+  "output": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter.pptx",
+  "outputBytes": 1970715,
+  "sourceSlideCount": 5,
+  "slideCount": 4,
+  "previewDir": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-preview",
+  "layoutDir": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-layout",
+  "contactSheet": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-contact-sheet.png",
+  "slides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 2,
+      "narrativeRole": "opening story",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-preview/starter-slide-01.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-01.png",
+      "layoutPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-layout/starter-slide-01.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-01.layout.json"
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 1,
+      "narrativeRole": "problem thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 7,
+      "previewPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-preview/starter-slide-02.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-02.png",
+      "layoutPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-layout/starter-slide-02.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-02.layout.json"
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "product concept",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 8,
+      "previewPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-preview/starter-slide-03.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-03.png",
+      "layoutPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-layout/starter-slide-03.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-03.layout.json"
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "narrativeRole": "closing story",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 8,
+      "previewPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-preview/starter-slide-04.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-04.png",
+      "layoutPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-layout/starter-slide-04.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-04.layout.json"
+    }
+  ]
+}

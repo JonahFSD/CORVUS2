@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Corvus handoff concept</title>
+    <style>
+      * { box-sizing: border-box; }
+      html, body { width: 1024px; height: 912px; margin: 0; overflow: hidden; }
+      body {
+        background: #f3f0e8;
+        color: #14251e;
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .app { width: 100%; height: 100%; padding: 34px 38px 32px; }
+      .top {
+        display: flex; align-items: center; justify-content: space-between;
+        padding-bottom: 24px; border-bottom: 1px solid #c9c6bd;
+      }
+      .brand { font-weight: 800; letter-spacing: .12em; font-size: 16px; }
+      .state { color: #4d645a; font-weight: 700; font-size: 15px; }
+      .headline { margin: 28px 0 10px; font-family: Georgia, serif; font-size: 47px; line-height: 1.03; font-weight: 500; letter-spacing: -.02em; }
+      .sub { margin: 0 0 26px; color: #516158; font-size: 17px; line-height: 1.45; }
+      .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 24px; }
+      .step { border-top: 4px solid #c8c9c2; padding-top: 8px; color: #6a746e; font-size: 13px; font-weight: 700; }
+      .step.on { border-color: #2b8f69; color: #1b5e46; }
+      .grid { display: grid; grid-template-columns: 1.08fr .92fr; gap: 20px; }
+      .panel { background: #fffdf8; border: 1px solid #d8d4ca; border-radius: 18px; padding: 22px; box-shadow: 0 12px 28px rgba(21, 39, 31, .06); }
+      .eyebrow { color: #2b8f69; font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+      h2 { margin: 7px 0 18px; font-family: Georgia, serif; font-size: 28px; font-weight: 500; }
+      .item { padding: 13px 0; border-top: 1px solid #e5e1d8; }
+      .item:first-of-type { border-top: 0; padding-top: 0; }
+      .label { color: #607068; font-size: 11px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; margin-bottom: 5px; }
+      .value { font-size: 16px; line-height: 1.35; font-weight: 700; }
+      .control { margin-top: 7px; color: #2b8f69; font-size: 12px; font-weight: 700; }
+      .withheld { background: #edeae2; border-radius: 10px; padding: 11px 12px; margin-top: 12px; color: #5d655f; font-size: 13px; display: flex; justify-content: space-between; }
+      .profile { display: flex; align-items: center; gap: 13px; margin: 8px 0 16px; }
+      .avatar { width: 56px; height: 56px; border-radius: 50%; background: #d9e8df; display: grid; place-items: center; color: #1b5e46; font-weight: 800; font-size: 18px; }
+      .name { font-size: 20px; font-weight: 800; }
+      .meta { color: #607068; font-size: 13px; margin-top: 2px; }
+      .reason { padding: 10px 0; border-top: 1px solid #e5e1d8; display: grid; grid-template-columns: 24px 1fr; gap: 8px; align-items: start; font-size: 14px; line-height: 1.35; }
+      .check { color: #2b8f69; font-weight: 900; }
+      .fine { color: #6c756f; font-size: 11px; line-height: 1.35; margin-top: 15px; }
+      .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+      .button { border-radius: 10px; padding: 13px 10px; text-align: center; font-size: 13px; font-weight: 800; border: 1px solid #c9c6bd; }
+      .button.primary { color: #fff; background: #183e30; border-color: #183e30; }
+      .foot { display: flex; justify-content: space-between; align-items: center; margin-top: 18px; color: #65716a; font-size: 12px; }
+      .boundary { color: #14251e; font-weight: 800; }
+    </style>
+  </head>
+  <body>
+    <main class="app">
+      <div class="top"><div class="brand">CORVUS</div><div class="state">Maya's private handoff</div></div>
+      <h1 class="headline">You decide what crosses the room.</h1>
+      <p class="sub">Review the context. Change the language. Choose the therapist. Nothing is shared until you say so.</p>
+      <div class="steps">
+        <div class="step on">01 &nbsp; REVIEW</div><div class="step on">02 &nbsp; MATCH</div><div class="step">03 &nbsp; SHARE</div>
+      </div>
+      <div class="grid">
+        <section class="panel">
+          <div class="eyebrow">Your manifest</div><h2>The context you approved</h2>
+          <div class="item"><div class="label">What happened</div><div class="value">A move, a breakup, and panic Maya hides at work.</div><div class="control">Edit &nbsp; | &nbsp; Remove</div></div>
+          <div class="item"><div class="label">What she needs</div><div class="value">A structured first session with direct, grounded questions.</div><div class="control">Edit &nbsp; | &nbsp; Remove</div></div>
+          <div class="item"><div class="label">What matters</div><div class="value">Woman therapist, after 5 p.m., in-network, virtual first visit.</div><div class="control">Edit &nbsp; | &nbsp; Remove</div></div>
+          <div class="withheld"><span>Wearable data</span><strong>WITHHELD</strong></div>
+        </section>
+        <section class="panel">
+          <div class="eyebrow">Suggested match</div><h2>Why this therapist</h2>
+          <div class="profile"><div class="avatar">LB</div><div><div class="name">Lena Brooks, LCSW</div><div class="meta">Illinois &nbsp; | &nbsp; Synthetic profile</div></div></div>
+          <div class="reason"><span class="check">&#10003;</span><span>Licensed for Maya's location</span></div>
+          <div class="reason"><span class="check">&#10003;</span><span>In-network and accepting clients</span></div>
+          <div class="reason"><span class="check">&#10003;</span><span>Availability after 5 p.m.</span></div>
+          <div class="reason"><span class="check">&#10003;</span><span>Experience with anxiety and major life transitions</span></div>
+          <div class="fine">Suggestion, not diagnosis. Maya can inspect the reasons, change preferences, or choose someone else.</div>
+          <div class="actions"><div class="button">See other matches</div><div class="button primary">Preview handoff</div></div>
+        </section>
+      </div>
+      <div class="foot"><span>Consent is revocable until sharing.</span><span class="boundary">Maya chooses. The system does not.</span></div>
+    </main>
+  </body>
+</html>

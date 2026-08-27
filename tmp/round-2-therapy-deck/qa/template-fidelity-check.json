@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-27T14:32:40.254Z",
+  "workspace": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck",
+  "finalPptx": "/Users/jonahelliott/WORKSPACE/Osanwe/docs/pitch/round-2/corvus-round-2-therapy-pitch.pptx",
+  "starterPptx": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter.pptx",
+  "mapPath": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-frame-map.json",
+  "starterLayoutDir": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/template-starter-layout",
+  "finalLayoutDir": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck/final-artifacts",
+  "editDir": "/Users/jonahelliott/WORKSPACE/Osanwe/tmp/round-2-therapy-deck",
+  "issueCount": 0,
+  "issues": []
+}

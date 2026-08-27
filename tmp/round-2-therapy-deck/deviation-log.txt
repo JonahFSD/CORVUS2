@@ -1,0 +1,14 @@
+SLIDE 1
+- Replaces the source social-scene photo with a synthetic composite of Maya after an AI conversation.
+- Rewrites the narrative while preserving the source layout and image frame.
+
+SLIDE 2
+- Reuses the full-width thesis slide to turn the story from disclosure to the therapy-access gap.
+
+SLIDE 3
+- Replaces the old Wayfinder screenshot with a synthetic product concept for the consent-controlled manifest and therapist match.
+- Keeps the source product-demo silhouette and explicit synthetic-scenario label.
+
+SLIDE 4
+- Replaces the old recommendation screenshot with the same fictional Maya in a therapist office.
+- Rewrites the narrative while preserving the source product-slide structure and image frame.

@@ -1,0 +1,67 @@
+{"kind":"deck","id":"pr/a12e7z","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/s9dlds","slide":1,"title":"OSANWE / WAYFINDER","textShapes":6}
+{"kind":"textbox","id":"sh/gbmlcbyp","slide":1,"name":"brand-2","text":"OSANWE / WAYFINDER","textPreview":"OSANWE / WAYFINDER","textChars":18,"textLines":1,"bbox":[48,26,300,26]}
+{"kind":"textbox","id":"sh/6dk7a18r","slide":1,"name":"round-2","text":"ACU / ROUND 2","textPreview":"ACU / ROUND 2","textChars":13,"textLines":1,"bbox":[980,26,252,26]}
+{"kind":"shape","id":"sh/7yto36pc","slide":1,"name":"top-rule-2","bbox":[48,64,1184,1]}
+{"kind":"shape","id":"sh/g32pgvqt","slide":1,"name":"left-grid-2","bbox":[48,64,1,604]}
+{"kind":"shape","id":"sh/h4bq907e","slide":1,"name":"center-grid-2","bbox":[640,64,1,604]}
+{"kind":"shape","id":"sh/u1k7el8n","slide":1,"name":"right-grid-2","bbox":[1231,64,1,604]}
+{"kind":"shape","id":"sh/f2t87qp8","slide":1,"name":"bottom-rule-2","bbox":[48,668,1184,1]}
+{"kind":"textbox","id":"sh/47mpkvq5","slide":1,"name":"page-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1178,682,54,22]}
+{"kind":"textbox","id":"sh/p8vqd07a","slide":1,"name":"problem-title","text":"More plans are not the same\nas more connection.","textPreview":"More plans are not the same | as more connection.","textChars":47,"textLines":2,"bbox":[80,112,530,150]}
+{"kind":"textbox","id":"sh/t8v21wfy","slide":1,"name":"problem-copy","text":"New city. More invitations.\nStill unsure what will actually help.","textPreview":"New city. More invitations. | Still unsure what will actually help.","textChars":65,"textLines":2,"bbox":[80,332,470,108]}
+{"kind":"shape","id":"sh/s72l8ryt","slide":1,"name":"problem-accent","bbox":[80,486,64,3]}
+{"kind":"textbox","id":"sh/76tkzmx8","slide":1,"name":"problem-outcome","text":"The outcome is not another chat.\nIt is a better decision in real life.","textPreview":"The outcome is not another chat. | It is a better decision in real life.","textChars":70,"textLines":2,"bbox":[80,514,480,84]}
+{"kind":"shape","id":"sh/hcv25gfa","slide":1,"name":"story-frame","bbox":[671,95,530,542]}
+{"kind":"image","id":"im/ovmt0ryh","slide":1,"name":"","bbox":[672,96,528,540]}
+{"kind":"notes","id":"nt/s9dlds","slide":1,"text":"Start with someone who moved to a new city. They meet people and keep saying yes, but still feel disconnected. After a draining night, should they force another event, stay home, or follow up with the one person who felt promising?\n\nGeneric advice cannot know. And another chatbot conversation is not the outcome.\n\n[Sources]\n- Scenario is explicitly hypothetical and mirrors the synthetic prototype fixture.\n- Illustration generated for this deck; it does not depict a real participant or outcome.\n- Visual direction: https://vercel.com/ (official homepage, accessed 2026-08-26).\n[/Sources]"}
+{"kind":"slide","id":"sl/0pelvh","slide":2,"title":"OSANWE / WAYFINDER","textShapes":7}
+{"kind":"textbox","id":"sh/sn2183mp","slide":2,"name":"brand-1","text":"OSANWE / WAYFINDER","textPreview":"OSANWE / WAYFINDER","textChars":18,"textLines":1,"bbox":[48,26,300,26]}
+{"kind":"textbox","id":"sh/czmxwval","slide":2,"name":"round-1","text":"ACU / ROUND 2","textPreview":"ACU / ROUND 2","textChars":13,"textLines":1,"bbox":[980,26,252,26]}
+{"kind":"shape","id":"sh/x0vep0r6","slide":2,"name":"top-rule-1","bbox":[48,64,1184,1]}
+{"kind":"shape","id":"sh/y14fy5sr","slide":2,"name":"left-grid-1","bbox":[48,64,1,604]}
+{"kind":"shape","id":"sh/z2dgra9w","slide":2,"name":"center-grid-1","bbox":[640,64,1,604]}
+{"kind":"shape","id":"sh/knmx0vah","slide":2,"name":"right-grid-1","bbox":[1231,64,1,604]}
+{"kind":"shape","id":"sh/lovyt0r2","slide":2,"name":"bottom-rule-1","bbox":[48,668,1184,1]}
+{"kind":"textbox","id":"sh/e50fm1s7","slide":2,"name":"page-1","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1178,682,54,22]}
+{"kind":"textbox","id":"sh/f6twf6ts","slide":2,"name":"thesis-kicker","text":"PARTICIPANT-OWNED PERSONALIZATION","textPreview":"PARTICIPANT-OWNED PERSONALIZATION","textChars":33,"textLines":1,"bbox":[80,112,510,28]}
+{"kind":"textbox","id":"sh/7mt0fylk","slide":2,"name":"thesis-title","text":"Your behavior is already\nbeing modeled.","textPreview":"Your behavior is already | being modeled.","textChars":39,"textLines":2,"bbox":[80,176,1090,210]}
+{"kind":"textbox","id":"sh/6lkjmt4z","slide":2,"name":"thesis-subtitle","text":"The objective just is not your flourishing.","textPreview":"The objective just is not your flourishing.","textChars":43,"textLines":1,"bbox":[80,448,1040,78]}
+{"kind":"textbox","id":"sh/tob2h83a","slide":2,"name":"founder-line","text":"JONAH ELLIOTT  /  TWO-MINUTE PITCH","textPreview":"JONAH ELLIOTT  /  TWO-MINUTE PITCH","textChars":34,"textLines":1,"bbox":[80,602,500,24]}
+{"kind":"notes","id":"nt/0pelvh","slide":2,"text":"Your behavior is already being modeled. The objective just is not your flourishing.\n\nTechnology companies learn which signals predict a click, purchase, or another minute on-screen. I want to turn that system around: a personal model that works for the person.\n\n[Sources]\n- Internal claim boundary: docs/research/adtech-to-flourishing-evidence-audit.md.\n- Visual direction: https://vercel.com/ (official homepage, accessed 2026-08-26).\n[/Sources]"}
+{"kind":"slide","id":"sl/3xviau","slide":3,"title":"OSANWE / WAYFINDER","textShapes":7}
+{"kind":"textbox","id":"sh/q50zuh0z","slide":3,"name":"brand-3","text":"OSANWE / WAYFINDER","textPreview":"OSANWE / WAYFINDER","textChars":18,"textLines":1,"bbox":[48,26,300,26]}
+{"kind":"textbox","id":"sh/1krm5g7q","slide":3,"name":"round-3","text":"ACU / ROUND 2","textPreview":"ACU / ROUND 2","textChars":13,"textLines":1,"bbox":[980,26,252,26]}
+{"kind":"shape","id":"sh/0jilcbql","slide":3,"name":"top-rule-3","bbox":[48,64,1184,1]}
+{"kind":"shape","id":"sh/rupkzmpo","slide":3,"name":"left-grid-3","bbox":[48,64,1,604]}
+{"kind":"shape","id":"sh/qtg36h83","slide":3,"name":"center-grid-3","bbox":[640,64,1,604]}
+{"kind":"shape","id":"sh/dw721w7u","slide":3,"name":"right-grid-3","bbox":[1231,64,1,604]}
+{"kind":"shape","id":"sh/svyl8rq9","slide":3,"name":"bottom-rule-3","bbox":[48,668,1184,1]}
+{"kind":"textbox","id":"sh/bqt4bqp8","slide":3,"name":"page-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1178,682,54,22]}
+{"kind":"textbox","id":"sh/apk3il8n","slide":3,"name":"input-kicker","text":"WORKING PROTOTYPE / SYNTHETIC SCENARIO","textPreview":"WORKING PROTOTYPE / SYNTHETIC SCENARIO","textChars":38,"textLines":1,"bbox":[80,102,480,26]}
+{"kind":"textbox","id":"sh/0v2h0rih","slide":3,"name":"input-title","text":"Wayfinder starts with\nsignals you choose.","textPreview":"Wayfinder starts with | signals you choose.","textChars":41,"textLines":2,"bbox":[80,154,480,128]}
+{"kind":"textbox","id":"sh/lwbitwjm","slide":3,"name":"input-copy","text":"Reflection. Relationship events.\nOptional recovery data.","textPreview":"Reflection. Relationship events. | Optional recovery data.","textChars":56,"textLines":2,"bbox":[80,332,450,82]}
+{"kind":"shape","id":"sh/ytkzy10b","slide":3,"name":"input-accent","bbox":[80,486,64,3]}
+{"kind":"textbox","id":"sh/zutgrm1w","slide":3,"name":"input-boundary","text":"The LLM proposes evidence.\nThe participant can inspect and correct it.","textPreview":"The LLM proposes evidence. | The participant can inspect and correct it.","textChars":70,"textLines":2,"bbox":[80,514,450,76]}
+{"kind":"shape","id":"sh/crihwri5","slide":3,"name":"input-screen-backing","bbox":[603,103,598,534]}
+{"kind":"image","id":"im/4vyxk36t","slide":3,"name":"","bbox":[604,104,596,532]}
+{"kind":"notes","id":"nt/3xviau","slide":3,"text":"Wayfinder begins with signals the participant chooses: a short reflection, a few relationship events, and optional recovery data.\n\nThe language model only turns words into inspectable evidence. A separate model updates an uncertain personal state. Every meaningful inference shows its source and can be corrected.\n\n[Sources]\n- Working prototype screenshot captured from origin/feat/two-minute-wayfinder-demo; synthetic data is visibly labeled.\n- Product boundary: docs/specs/two-minute-demo-v0.1.md on the demo branch and docs/specs/wayfinder-production-alpha-prd-v0.1.md.\n[/Sources]"}
+{"kind":"slide","id":"sl/awj7ry","slide":4,"title":"OSANWE / WAYFINDER","textShapes":7}
+{"kind":"textbox","id":"sh/cv2p8jm5","slide":4,"name":"brand-4","text":"OSANWE / WAYFINDER","textPreview":"OSANWE / WAYFINDER","textChars":18,"textLines":1,"bbox":[48,26,300,26]}
+{"kind":"textbox","id":"sh/r6x03ml8","slide":4,"name":"round-4","text":"ACU / ROUND 2","textPreview":"ACU / ROUND 2","textChars":13,"textLines":1,"bbox":[980,26,252,26]}
+{"kind":"shape","id":"sh/q5ozahkn","slide":4,"name":"top-rule-4","bbox":[48,64,1184,1]}
+{"kind":"shape","id":"sh/54fi1c32","slide":4,"name":"left-grid-4","bbox":[48,64,1,604]}
+{"kind":"shape","id":"sh/436h872h","slide":4,"name":"center-grid-4","bbox":[640,64,1,604]}
+{"kind":"shape","id":"sh/32x0zmlw","slide":4,"name":"right-grid-4","bbox":[1231,64,1,604]}
+{"kind":"shape","id":"sh/i1oz6hkb","slide":4,"name":"bottom-rule-4","bbox":[48,668,1184,1]}
+{"kind":"textbox","id":"sh/90jidg36","slide":4,"name":"page-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1178,682,54,22]}
+{"kind":"textbox","id":"sh/ozahkb2l","slide":4,"name":"output-kicker","text":"ONE CORRECTABLE EXPLANATION","textPreview":"ONE CORRECTABLE EXPLANATION","textChars":27,"textLines":1,"bbox":[80,102,420,26]}
+{"kind":"textbox","id":"sh/yxk7at4v","slide":4,"name":"output-title","text":"Capacity,\nnot avoidance.","textPreview":"Capacity, | not avoidance.","textChars":24,"textLines":2,"bbox":[80,154,440,148]}
+{"kind":"textbox","id":"sh/zyt83y5g","slide":4,"name":"output-action","text":"Protect tonight.\nKeep tomorrow warm.","textPreview":"Protect tonight. | Keep tomorrow warm.","textChars":36,"textLines":2,"bbox":[80,356,440,96]}
+{"kind":"shape","id":"sh/kz2pc3m1","slide":4,"name":"output-accent","bbox":[80,500,64,3]}
+{"kind":"textbox","id":"sh/l0bq58nm","slide":4,"name":"output-control","text":"One bounded next step.\nNothing is sent automatically.","textPreview":"One bounded next step. | Nothing is sent automatically.","textChars":53,"textLines":2,"bbox":[80,528,440,68]}
+{"kind":"shape","id":"sh/a907694z","slide":4,"name":"recommendation-screen-backing","bbox":[559,103,642,534]}
+{"kind":"image","id":"im/q1wfup4v","slide":4,"name":"","bbox":[560,104,640,532]}
+{"kind":"notes","id":"nt/awj7ry","slide":4,"text":"In this working prototype, the model notices that interest in connection is intact, but capacity is down. Instead of ‘socialize more,’ it offers one bounded next step: protect tonight, then send a low-pressure coffee invitation tomorrow—in your own words.\n\nNothing is sent automatically. What happened next becomes new evidence.\n\n[Sources]\n- Working prototype screenshot captured from origin/feat/two-minute-wayfinder-demo; the participant and data are synthetic.\n- Recommendation boundary: docs/specs/two-minute-demo-v0.1.md and docs/specs/wayfinder-production-alpha-prd-v0.1.md.\n[/Sources]"}

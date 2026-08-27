@@ -1,0 +1,30 @@
+SOURCE DECK
+osanwe-wayfinder-round-2.pptx, five slides, 1280 x 720, black field.
+
+REUSABLE STRUCTURE
+- Slide 1: full-width thesis treatment.
+- Slide 2: left narrative column plus right portrait image.
+- Slides 3-4: left narrative column plus right product image.
+- Slide 5: wide closing thesis with three bottom columns.
+
+BRAND AND TYPOGRAPHY
+- Arial is the visible face; white primary text, #A1A1A1 secondary text, mint #59D9A3 accent.
+- Persistent top brand/round labels, thin #262626 grid rules, and bottom-right page markers.
+- Headline scale is roughly 48-62 pt, body 20-28 pt, chrome 11-15 pt.
+
+INSERTION CONTRACT
+- Preserve the black canvas, grid rails, page markers, image frames, spacing rhythm, and existing text styling.
+- Rewrite only the mapped text shapes and replace only mapped image elements.
+- Keep source-slide backing shapes behind replacement images.
+- Add no new slide-local narrative objects.
+- All four output slides are duplicated from source slides.
+
+SOURCE SLIDE COVERAGE
+- Source slide 1 is reused for the problem hinge.
+- Source slide 2 is reused for the opening human scene.
+- Source slide 3 is reused for the product concept.
+- Source slide 4 is reused for the closing human handoff.
+- Source slide 5 is omitted because its old roadmap ending is not needed.
+
+PLACEHOLDERS
+The imported title layout contains no inherited master/layout placeholder elements. All visible objects are slide-local and explicitly mapped when edited.

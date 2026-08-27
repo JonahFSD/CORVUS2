@@ -1,0 +1,14 @@
+LOCAL SOURCES
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/pitch/round-2/round-2-pitch-prep.md
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/pitch/round-2/osanwe-wayfinder-round-2.pptx
+- /Users/jonahelliott/WORKSPACE/Osanwe/docs/specs/wayfinder-production-alpha-prd-v0.1.md
+
+GENERATED VISUALS
+- Maya at night: built-in image generation, fictional composite, prompt recorded in slide 1 notes.
+- Maya with therapist: built-in image generation using the slide 1 image as an identity reference, fictional composite, prompt recorded in slide 4 notes.
+
+PRODUCT CONCEPT
+- Slide 3 is a synthetic, static product concept. It is not a screenshot of implemented functionality and is labeled accordingly.
+
+CLAIMS
+- The deck intentionally makes no prevalence, efficacy, matching-accuracy, or clinical-outcome claims.

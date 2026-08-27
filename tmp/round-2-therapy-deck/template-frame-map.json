@@ -1,0 +1,69 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 2,
+      "narrativeRole": "opening story",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/xk7qlczu", "action": "rewrite", "purpose": "brand" },
+        { "shapeId": "sh/9072xkry", "action": "rewrite", "purpose": "round label" },
+        { "shapeId": "sh/r65knqtk", "action": "rewrite", "purpose": "page number" },
+        { "shapeId": "sh/q5wjelsz", "action": "rewrite", "purpose": "story title" },
+        { "shapeId": "sh/ove9o7yd", "action": "rewrite", "purpose": "story detail" },
+        { "shapeId": "sh/mtwrmxg7", "action": "rewrite", "purpose": "story turn" },
+        { "shapeId": "im/xwne10je", "action": "replace", "purpose": "Maya at night" }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 1,
+      "narrativeRole": "problem thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/vmdcj2xw", "action": "rewrite", "purpose": "brand" },
+        { "shapeId": "sh/547294r6", "action": "rewrite", "purpose": "round label" },
+        { "shapeId": "sh/fu94fe98", "action": "rewrite", "purpose": "page number" },
+        { "shapeId": "sh/utg3698n", "action": "rewrite", "purpose": "problem kicker" },
+        { "shapeId": "sh/wn6dc7eh", "action": "rewrite", "purpose": "problem title" },
+        { "shapeId": "sh/hofulsf2", "action": "rewrite", "purpose": "problem subtitle" },
+        { "shapeId": "sh/ul4vaxgb", "action": "rewrite", "purpose": "friction rail" }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "product concept",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/x8nml0ra", "action": "rewrite", "purpose": "brand" },
+        { "shapeId": "sh/cza94vmx", "action": "rewrite", "purpose": "round label" },
+        { "shapeId": "sh/m5cra54z", "action": "rewrite", "purpose": "page number" },
+        { "shapeId": "sh/n6ls3alk", "action": "rewrite", "purpose": "concept label" },
+        { "shapeId": "sh/n2l4fq98", "action": "rewrite", "purpose": "product title" },
+        { "shapeId": "sh/m1c3mlsn", "action": "rewrite", "purpose": "control detail" },
+        { "shapeId": "sh/83ulovat", "action": "rewrite", "purpose": "choice boundary" },
+        { "shapeId": "im/vmlojqd0", "action": "replace", "purpose": "synthetic handoff interface" }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "narrativeRole": "closing story",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/a5kr2xg3", "action": "rewrite", "purpose": "brand" },
+        { "shapeId": "sh/1cj2d8b6", "action": "rewrite", "purpose": "round label" },
+        { "shapeId": "sh/3ihk3et8", "action": "rewrite", "purpose": "page number" },
+        { "shapeId": "sh/ih8ju9sn", "action": "rewrite", "purpose": "handoff kicker" },
+        { "shapeId": "sh/kbm987y5", "action": "rewrite", "purpose": "closing title" },
+        { "shapeId": "sh/5cva1cfq", "action": "rewrite", "purpose": "closing detail" },
+        { "shapeId": "sh/jadsz2xk", "action": "rewrite", "purpose": "closing resolution" },
+        { "shapeId": "im/sbm5cbix", "action": "replace", "purpose": "Maya with therapist" }
+      ]
+    }
+  ],
+  "omittedSourceSlides": [
+    { "sourceSlide": 5, "reason": "The prior alpha roadmap ending is replaced by the human handoff resolution." }
+  ]
+}

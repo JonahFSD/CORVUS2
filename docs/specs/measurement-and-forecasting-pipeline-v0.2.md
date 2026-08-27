@@ -77,16 +77,13 @@ Initially eligible personal parameters are limited to:
 
 Action effects, a full personal transition matrix, unrestricted feature weights, and neural representations are not eligible for online personalization in the first model.
 
-## 2. Domain-transfer boundary and evidence ledger
+## 2. Evidence-first development boundary and evidence ledger
 
-This pipeline applies a research-method pattern synthesized from Lars Ostervold's verified electrocatalysis corpus to a new domain. It is not a simulation of Ostervold's identity, does not claim that he worked on this product, and does not establish what he personally believes or would choose.
-
-The useful transfer is methodological: begin with a tractable proof of concept, change interpretable variables before increasing complexity, measure both performance and system state, retain null results, and build additional instrumentation only when a specific inference is blocked. The source corpus documents those patterns in electrocatalysis; their application to longitudinal human ML is a new Osanwe proposal. See the [2021 proof-of-concept study](../research/lars-ostervold/2021-electrochemical-biomass-upgrading-degradation-of-glucose-to-lactic-acid-on-a-copper-ii-electrode.md), [2023 dissertation summary](../research/lars-ostervold/2023-fundamental-electrocatalysis-design-for-glucose-upgrading.md), and [2024 operando-cell summary](../research/lars-ostervold/2024-a-versatile-electrochemical-cell-for-operando-xas.md).
+The pipeline begins with a tractable proof of concept, changes interpretable variables before increasing complexity, measures both performance and system state, retains null results, and adds instrumentation only when a specific inference is blocked. These are project-level methodological constraints. They remain useful only when they produce clearer discriminating tests and cheaper, safer decisions.
 
 | Material claim | Status | Origin | What would change the status |
 |---|---|---|---|
-| The published corpus progresses from a tractable baseline through interpretable perturbations, state-sensitive measurement, and enabling instrumentation. | observed, author-reported / cross-paper synthesis | published corpus | Independent historical review could refine the synthesis; it is not a claim about private reasoning. |
-| That method is useful for organizing Osanwe's ML work. | specified | new proposal | It remains useful only if it produces clearer discriminating tests and cheaper, safer decisions. |
+| Evidence-first iteration is useful for organizing Osanwe's ML work. | specified | project methodology | It remains useful only if it produces clearer discriminating tests and cheaper, safer decisions. |
 | A one- or two-state dynamic model is the right first learned candidate. | hypothesis | new proposal | Simulation, identifiability work, and prospective comparison against simpler baselines. |
 | Narrative, graph history, or wearables add incremental forecast value beyond explicit check-ins and context. | hypothesis | new proposal | Prespecified temporal ablations and negative controls. |
 | Hierarchical personalization adds value beyond a population model. | hypothesis | new proposal | Prospective comparison on future participant windows plus parameter-recovery evidence. |
@@ -660,7 +657,6 @@ The immediate decision remains the same as in [open questions](open-questions.md
 - [Personalized Social Flourishing Model v0.1](personalized-social-flourishing-model-v0.1.md)
 - [Foundational modeling and criticism for Osanwe](../research/foundational-modeling-and-criticism.md)
 - [Personalized longitudinal state estimation and intervention learning](../research/personalized-longitudinal-state-estimation.md)
-- [Ostervold verified-corpus archive](../research/lars-ostervold/README.md)
 - [TRIPOD+AI reporting guidance](https://doi.org/10.1136/bmj-2023-078378)
 - [PROBAST+AI quality and risk-of-bias guidance](https://doi.org/10.1136/bmj-2024-082505)
 - [Micro-randomized trial design for proximal intervention effects](https://pmc.ncbi.nlm.nih.gov/articles/PMC4732571/)
