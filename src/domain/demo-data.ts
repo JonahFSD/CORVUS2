@@ -1,7 +1,7 @@
 import type { TherapistProfile } from "./intake-workflow";
 
 export const mayaAnswer =
-  "Since I moved to Chicago in June, I have been panicking at work and sleeping badly. The breakup made it worse. I want help feeling steady again. I would prefer a woman therapist, after 5 p.m., virtual, and in-network with Blue Cross.";
+  "Since I moved to Chicago in June, I have been panicking at work and sleeping badly. The breakup made it worse. I want help feeling steady again. I would prefer a female therapist, after 5 p.m., virtual, and in-network with Blue Cross.";
 
 export const therapistDirectory: readonly TherapistProfile[] = [
   {
@@ -9,7 +9,7 @@ export const therapistDirectory: readonly TherapistProfile[] = [
     name: "Lena Brooks",
     credentials: "LCSW",
     state: "Illinois",
-    gender: "woman",
+    gender: "female",
     vetted: true,
     acceptingClients: true,
     insurances: ["Blue Cross"],
@@ -22,7 +22,7 @@ export const therapistDirectory: readonly TherapistProfile[] = [
     name: "Amina Patel",
     credentials: "LCPC",
     state: "Illinois",
-    gender: "woman",
+    gender: "female",
     vetted: true,
     acceptingClients: true,
     insurances: ["Blue Cross"],
@@ -35,7 +35,7 @@ export const therapistDirectory: readonly TherapistProfile[] = [
     name: "Devon Lee",
     credentials: "LCPC",
     state: "Illinois",
-    gender: "man",
+    gender: "male",
     vetted: true,
     acceptingClients: true,
     insurances: ["Aetna"],

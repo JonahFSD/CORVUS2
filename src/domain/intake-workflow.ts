@@ -21,7 +21,7 @@ export interface TherapistProfile {
   name: string;
   credentials: string;
   state: string;
-  gender: "woman" | "man" | "nonbinary";
+  gender: "female" | "male" | "nonbinary";
   vetted: boolean;
   acceptingClients: boolean;
   insurances: readonly string[];
@@ -80,7 +80,7 @@ export const compileIntakeManifest = (answer: string): ManifestItem[] => {
     {
       id: "care-preferences",
       label: "What matters for care",
-      value: "Woman therapist, after 5 p.m., virtual, and in-network with Blue Cross.",
+      value: "Female therapist, after 5 p.m., virtual, and in-network with Blue Cross.",
       sourceSpan: preferences,
       decision: "proposed",
       sensitive: true,
@@ -120,7 +120,7 @@ export const findEligibleTherapists = (
         therapist.vetted &&
         therapist.acceptingClients &&
         therapist.state === "Illinois" &&
-        therapist.gender === "woman" &&
+        therapist.gender === "female" &&
         therapist.insurances.includes("Blue Cross") &&
         therapist.modes.includes("virtual") &&
         therapist.availability.includes("after 5 p.m.") &&
@@ -131,7 +131,7 @@ export const findEligibleTherapists = (
       therapist,
       reasons: [
         "License verified for Illinois",
-        "Woman therapist, as requested",
+        "Female therapist, as requested",
         "In network with Blue Cross",
         "Accepting new clients",
         "Virtual appointments",

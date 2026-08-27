@@ -476,7 +476,7 @@ export function CorvusDemo() {
           </div>
 
           <div className="constraint-strip">
-            {["ILLINOIS", "VETTED", "BLUE CROSS", "VIRTUAL", "AFTER 5PM", "WOMAN"].map(
+            {["ILLINOIS", "VETTED", "BLUE CROSS", "VIRTUAL", "AFTER 5PM", "FEMALE"].map(
               (constraint) => (
                 <span key={constraint}>
                   <Check size={12} /> {constraint}

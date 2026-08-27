@@ -9,7 +9,7 @@ import {
 } from "./intake-workflow";
 
 const mayaAnswer =
-  "Since I moved to Chicago in June, I have been panicking at work and sleeping badly. The breakup made it worse. I want help feeling steady again. I would prefer a woman therapist, after 5 p.m., virtual, and in-network with Blue Cross.";
+  "Since I moved to Chicago in June, I have been panicking at work and sleeping badly. The breakup made it worse. I want help feeling steady again. I would prefer a female therapist, after 5 p.m., virtual, and in-network with Blue Cross.";
 
 describe("compileIntakeManifest", () => {
   it("turns Maya's answer into source-linked proposals without diagnosing her", () => {
@@ -36,9 +36,9 @@ describe("compileIntakeManifest", () => {
       {
         id: "care-preferences",
         label: "What matters for care",
-        value: "Woman therapist, after 5 p.m., virtual, and in-network with Blue Cross.",
+        value: "Female therapist, after 5 p.m., virtual, and in-network with Blue Cross.",
         sourceSpan:
-          "I would prefer a woman therapist, after 5 p.m., virtual, and in-network with Blue Cross.",
+          "I would prefer a female therapist, after 5 p.m., virtual, and in-network with Blue Cross.",
         decision: "proposed",
         sensitive: true,
       },
@@ -85,7 +85,7 @@ describe("findEligibleTherapists", () => {
         name: "Lena Brooks",
         credentials: "LCSW",
         state: "Illinois",
-        gender: "woman",
+        gender: "female",
         vetted: true,
         acceptingClients: true,
         insurances: ["Blue Cross"],
@@ -98,7 +98,7 @@ describe("findEligibleTherapists", () => {
         name: "Devon Lee",
         credentials: "LCPC",
         state: "Illinois",
-        gender: "man",
+        gender: "male",
         vetted: true,
         acceptingClients: true,
         insurances: ["Aetna"],
@@ -111,7 +111,7 @@ describe("findEligibleTherapists", () => {
         name: "Riley Chen",
         credentials: "LCSW",
         state: "Wisconsin",
-        gender: "woman",
+        gender: "female",
         vetted: true,
         acceptingClients: true,
         insurances: ["Blue Cross"],
@@ -128,7 +128,7 @@ describe("findEligibleTherapists", () => {
         therapist: directory[0],
         reasons: [
           "License verified for Illinois",
-          "Woman therapist, as requested",
+          "Female therapist, as requested",
           "In network with Blue Cross",
           "Accepting new clients",
           "Virtual appointments",
@@ -155,7 +155,7 @@ describe("createTherapistHandoff", () => {
       name: "Lena Brooks",
       credentials: "LCSW",
       state: "Illinois",
-      gender: "woman" as const,
+      gender: "female" as const,
       vetted: true,
       acceptingClients: true,
       insurances: ["Blue Cross"],
